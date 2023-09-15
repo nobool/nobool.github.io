@@ -1,10 +1,143 @@
 <!DOCTYPE HTML>
-<html>
-  <head>
-    <title>Jeff Thomas</title>
-    <meta name="description" content="Portfolio Page">
-  </head>
-  <body>
-    <h1>Works</h1>
-  </body>  
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Portfolio Website">
+  <meta name="author" content="Jeff Thomas">
+  <link rel="icon" href="images/Jeff.png">
+  <title>Jeff Thomas</title>
+  <!-- Include Bootstrap CSS -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./custom.css">
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <div class="custom-section">
+    <div class="custom-container d-flex align-items-stretch">
+      <div
+        class="col-md-5 custom-bg-dark text-white d-flex flex-column align-items-center justify-content-start left-column pt-5 pl-5 pb-5">
+        <div class="p-5 ml-5 col-md-12">
+          <div class="col-md-12 parent">
+            <h1 class="scalable-h1 custom-text">Jeff Thomas</h1>
+          </div>
+          <div class="col-md-12 parent">
+            <h2 class="scalable-h2">Software
+              Engineer</h2>
+          </div>
+          <div class="description">
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7 custom-bg-danger d-flex d-md-block right-column">
+        <div class="pt-5 pr-5 pb-5 mr-5 mt-5 d-flex flex-column align-items-end">
+          <div class="d-flex align-items-start col-md-10"><h6 class="p-2">PROJECTS</p></div>
+          <div class="custom-card">
+            <div class="card-header">
+              <h5>Facepass</h5>
+            </div>
+            <div class="card-body flex-column d-flex align-items-start">
+              <!-- <h5 class="card-title">Danger card title</h5> -->
+              <p class="card-text">
+                Facial authentication library utilising OTG (One Time Gesture)
+              </p>
+              <div class="mb-auto">
+                <h5 class="custom-btn mr-2">Python</h5>
+                <h5 class="custom-btn mr-2">React.js</h5>
+                <h5 class="custom-btn mr-2">Nodejs</h5>
+                <h5 class="custom-btn mr-2">Postgresql</h5>
+                <h5 class="custom-btn mr-2">Tensorflow</h5>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="custom-card">
+            <div class="card-header">
+              <h5>Janus</h5>
+            </div>
+            <div class="card-body flex-column d-flex align-items-start">
+              <!-- <h5 class="card-title">Danger card title</h5> -->
+              <p class="card-text">University Timetabling problem tackled using Genetic Algorithms. Hyperparamter
+                optimised for reducing distances travelled, breaks and locational accesibility</p>
+              <div class="mb-auto">
+                <h5 class="custom-btn mr-2">Pandas</h5>
+                <h5 class="custom-btn mr-2">Docker</h5>
+                <h5 class="custom-btn mr-2">Python</h5>
+                <h5 class="custom-btn mr-2">React.js</h5>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card">
+            <div class="card-header">
+              <h5>DCU Discord Bot</h5>
+            </div>
+            <div class="card-body flex-column d-flex align-items-start">
+              <!-- <h5 class="card-title">Danger card title</h5> -->
+              <p class="card-text">Discord Bot for third level students, centralising information for CS students such
+                as deadlines,timetables and projects</p>
+              <div class="mb-auto">
+                <h5 class="custom-btn mr-2">Python</h5>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card">
+            <div class="card-header">
+              <h5>Chess Outcome Prediction</h5>
+            </div>
+            <div class="card-body flex-column d-flex align-items-start">
+              <!-- <h5 class="card-title">Danger card title</h5> -->
+              <p class="card-text">Statistical Modelling to Predict Chess Game Outcomes based off a given board state
+              </p>
+              <div class="mb-auto">
+                <h5 class="custom-btn mr-2">Pandas</h5>
+                <h5 class="custom-btn mr-2">Python</h5>
+                <h5 class="custom-btn mr-2">Seaborn</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="custom-card"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Include Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script>
+    // JavaScript to dynamically adjust the font size
+    const parent = document.querySelector(".parent");
+    const text = document.querySelector(".scalable-h1");
+
+    function adjustFontSize() {
+      const widthRatio = parent.clientWidth / text.offsetWidth;
+      const heightRatio = parent.clientHeight / text.offsetHeight;
+      const minRatio = Math.max(widthRatio, heightRatio);
+      console.log(parent.clientWidth, parent.clientHeight, text.offsetWidth, text.offsetHeight)
+      text.style.fontSize = `${minRatio * 100}%`;
+
+    }
+
+    // Call the function on page load and when the window is resized
+    window.addEventListener("load", adjustFontSize);
+    window.addEventListener("resize", adjustFontSize);
+  </script>
+</body>
+
 </html>
