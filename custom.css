@@ -25,7 +25,7 @@ body {
 
 .custom-card {
     width: 80%;
-    height: 200px;
+    /* height: 200px; */
     background-color: #202022;
     margin: 5px;
 }
@@ -90,3 +90,34 @@ body {
     font-size: 100%;
     margin: 0%;
 } */
+
+
+  .custom-btn {
+
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    
+      color: #fff;
+      background-color: #007777;
+      border-color: #007bff;
+      /* border-color: white; */
+
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  
+    padding: .15rem .5rem;
+    font-size: .875rem;
+    line-height: 1rem;
+    border-radius: 1rem;
+}
